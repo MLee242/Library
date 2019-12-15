@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+    <title>Library</title>
+    <link rel = "stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id ="addnewbook">
+            <form method="POST" class ="myform">
+                <h2 id = "form-title">New book</h2>
+                <div class="form-group">
+                    <label for="title" >Title</label><br/>
+                    <input type="text" name="title" placeholder="e.g. Franklin Stein" class="input inputs" maxlength="50"><br>
+                </div>
+                <div class="form-group">
+                    <label for="author" >Author</label><br/>
+                    <input type="text" name="title" placeholder="e.g. Ellen Raskin" class="input inputs" maxlength="50"><br>
+                </div>
+                <div class="form-group">
+                    <label for="pages">Number of Pages</label><br/>
+                    <input type="text" name="pages" placeholder="e.g. 143" class="input inputs" maxlength="10"><br>
+                </div>
+                <div class="form-group3">
+                   
+                    <fieldset class = "rating">
+                        
+                            
+                        <legend>Please rate:</legend>
+                        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!"></label>
+                        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good"></label>
+                        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh"></label>
+                        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad"></label>
+                        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time"></label>
+                                
+                       
+                    </fieldset>
+                </div>
+                <div class = "form-group2">
+                    <input type="checkbox" name="read" placeholder="readstatus" class="input2 inputs">
+                    <label for="read">Read</label><br>
+                </div>
+
+                <div class ="form-group-buttons">
+                    <button type="button" class="btn submit" id="2">Submit</button>
+                    <button type="button" class="btn cancel" id="3">Cancel</button>
+                </div>
+                
+            </form>
+        </div>
+    <div class = "topline">
+        <h1>Moon's Bookshelf</h1>
+    </div>
+    <div class ="buttonmenu">
+        <button id = "1" class= "btnpair btnplus">&#43;</button>
+    </div>
+    <div id = "container">
+    </div>
+</body>
+<script src=script.js></script>
+</html>

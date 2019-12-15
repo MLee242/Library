@@ -1,11 +1,12 @@
 Creating a small Library app
 
-Planning to add more features.
+User can add books to the list, edit existing book details, and delete any books from the list 
 
-features include:
-sort by date added.
-categorize into read/havent read.
-categorize into genre.
+
+Planning to add more features later:
+- sort by date added.
+- categorize into genre.
+- upload image of book.
 
 Check it out at: https://buddybuddymoon.github.io/Library/
 

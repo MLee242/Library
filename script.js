@@ -242,9 +242,14 @@ function addBookToLibrary(bk){
     del.className = 'fa fa-close btnpair del-group'
     
     del.addEventListener('click', function(){
-        container.removeChild(div);
-        myLibrary.pop(bk);
-        this.blur();
+        console.log("hi");
+        let r = confirm("Are you sure you want to delet this item?")
+        if(r){
+            container.removeChild(div);
+            myLibrary.pop(bk);
+            this.blur();
+        }
+        
     });
 
     div.appendChild(t);

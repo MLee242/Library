@@ -1,4 +1,6 @@
-Creating a small Library app
+# Library App
+
+Creating a simple Library app
 
 User can add books to the list, edit existing book details, and delete any books from the list 
 

@@ -10,7 +10,7 @@ Planning to add more features later:
 - categorize into genre.
 - upload image of book.
 
-Check it out at: https://buddybuddymoon.github.io/Library/
+Check it out at: https://mlee242.github.io/Library/
 
 ![What is this](screenshot.png?raw=true "Screenshot")
 
